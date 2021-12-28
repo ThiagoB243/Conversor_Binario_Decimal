@@ -1,0 +1,49 @@
+body {
+    background-color: cadetblue !important;
+}
+
+.navbar {
+    background-color: aqua;
+    width: 100%;
+    padding: 1%;
+}
+
+.corpo {
+    text-align: center;
+    margin: 2%;
+    flex-direction: column;
+}
+
+.output {
+    margin: 1% 40% 1% 40%;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.sobre_binario h5 {
+    text-align: center;
+}
+
+.sobre_binario {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20% 0 20%;
+    text-align: justify;
+}
+
+footer,
+footer a {
+    color: white;
+}
+
+
+/*Tira as setas do input*/
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
